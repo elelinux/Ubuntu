@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ # Copyright (C) 2012 Esa Laukkanen <ele.linux@gmail.com>
+ # Copyright (C) 2012 The Android Open Source Project
+ #
+ # Licensed under the Apache License, Version 2.0 (the "License");
+ # you may not use this file except in compliance with the License.
+ # You may obtain a copy of the License at
+ #
+ #      http://www.apache.org/licenses/LICENSE-2.0
+ #
+ # Unless required by applicable law or agreed to in writing, software
+ # distributed under the License is distributed on an "AS IS" BASIS,
+ # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ # See the License for the specific language governing permissions and
+ # limitations under the License.
+ -->
+
+<resources>
+    <!-- Ubuntu -->
+    <color name="ubuntu_light">#ffff6630</color>
+    <color name="ubuntu_bright">#ffe8713f</color>
+    <color name="ubuntu_dark">#fff55610</color>
+    <color name="ubuntu_main">#fff56424</color>
+    <color name="ubuntu_transparent">#80f56424</color>
+    <color name="notification_item_background_color_pressed">#fff56413</color>
+    <color name="transparent">#80000000</color>
+    <color name="grey_light">#ffdbd7d2</color>
+
+    <!-- HTC Stock -->
+    <color name="background_dark">#ff000000</color>
+    <color name="background_holo_dark">#ff000000</color>
+    <color name="background_holo_light">#fff3f3f3</color>
+    <color name="background_light">#ffffffff</color>
+    <color name="black">#ff000000</color>
+
+    <!-- Ubuntu calculator -->
+    <color name="ubuntu_button_text">#fff56424</color>
+    <color name="ubuntu_magic_flame">#00FFFFFF</color>
+    <color name="ubuntu_pressed_color">#fff55610</color>
+    <color name="ubuntu_history_result">#FFC40C</color>
+    <color name="ubuntu_background">#ff000000</color>
+
+    <!-- Ubuntu mms -->
+    <!-- Chat "sent time" text background -->
+    <color name="ubuntu_timestamp_color">#fff56424</color>
+
+    <!-- Play Store  -->
+    <color name="ubuntu_apps_background">#fff56424</color>
+    <color name="ubuntu_books_background">#ffff6630</color>
+    <color name="ubuntu_corpus_selector_active">#ffff6630</color>
+    <color name="ubuntu_details_review_source_text">#fff56424</color>
+    <color name="ubuntu_setup_wizard_title_color">#fff56424</color>
+
+    <!-- Gmail -->
+    <color name="ubuntu_fadedConversationHeader">#ffff6630</color>
+    <color name="ubuntu_fadedActivatedConversationHeader">#ffff6630</color>
+</resources>
