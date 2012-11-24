@@ -21,7 +21,7 @@
     xmlns:pluto="http://www.w3.org/2001/pluto.html"
     package="com.tmobile.theme.Ubuntu"
     android:versionCode="1"
-    android:versionName="1.0.2.2"
+    android:versionName="1.0.2.4"
     android:installLocation="internalOnly"
     android:hasCode="false">
     <uses-sdk android:minSdkVersion="13" />

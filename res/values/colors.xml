@@ -47,10 +47,15 @@
 
     <!-- Play Store  -->
     <color name="ubuntu_apps_background">#fff56424</color>
+    <color name="ubuntu_apps_dark">#fff55610</color>
+    <color name="ubuntu_apps_foreground">#fff56424</color>
     <color name="ubuntu_books_background">#ffff6630</color>
     <color name="ubuntu_corpus_selector_active">#ffff6630</color>
     <color name="ubuntu_details_review_source_text">#fff56424</color>
+    <color name="ubuntu_package_malware_title_color">#ffff6630</color>
+    <color name="ubuntu_review_histogram_bar">#fff55610</color>
     <color name="ubuntu_setup_wizard_title_color">#fff56424</color>
+    <color name="ubuntu_song_highlighted_background">#fff56424</color>
 
     <!-- Gmail -->
     <color name="ubuntu_fadedConversationHeader">#ffff6630</color>

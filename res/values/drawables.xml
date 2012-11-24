@@ -20,7 +20,7 @@
    <!-- Ubuntu v1.0.0 2012-11-03 -->
     <item type="drawable" name="notification_header_bg">@drawable/com_android_systemui_notification_header_bg</item>
     <item type="drawable" name="notification_item_background_color">#80000000</item>
-    <item type="drawable" name="notification_item_background_color_pressed">#80000000</item>
+    <item type="drawable" name="notification_item_background_color_pressed">#ffff6630</item>
     <item type="drawable" name="notification_item_background">@drawable/com_android_systemui_notification_item_background</item>
     <item type="drawable" name="notification_item_background_legacy_color">#ffaaaaaa</item>
     <item type="drawable" name="notification_item_background_pressed">@drawable/com_android_systemui_notification_item_background_pressed</item>

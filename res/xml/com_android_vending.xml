@@ -19,10 +19,15 @@
 <resource-redirections>
     <!-- Ubuntu Colors -->
     <item name="color/apps_background">@color/ubuntu_apps_background</item>
+    <item name="color/apps_dark">@color/ubuntu_apps_dark</item>
+    <item name="color/apps_foreground">@color/ubuntu_apps_foreground</item>
     <item name="color/books_background">@color/ubuntu_books_background</item>
     <item name="color/corpus_selector_active">@color/ubuntu_corpus_selector_active</item>
     <item name="color/details_review_source_text">@color/ubuntu_details_review_source_text</item>
+    <item name="color/package_malware_title_color">@color/ubuntu_package_malware_title_color</item>
+    <item name="color/review_histogram_bar">@color/ubuntu_review_histogram_bar</item>
     <item name="color/setup_wizard_title_color">@color/ubuntu_setup_wizard_title_color</item>
+    <item name="color/song_highlighted_background">@color/ubuntu_song_highlighted_background</item>
 
     <item name="drawable/background_holo_dark">@drawable/vending_background_holo_dark</item>
     <item name="drawable/bkgd_tile_black">@drawable/vending_bkgd_tile_black</item>
