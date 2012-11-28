@@ -42,8 +42,12 @@
     <color name="ubuntu_background">#ff000000</color>
 
     <!-- Ubuntu mms -->
-    <!-- Chat "sent time" text background -->
-    <color name="ubuntu_timestamp_color">#fff56424</color>
+    <color name="mms_background_primary">#ff000000</color>
+    <color name="mms_dark_blue">#fff55610</color>
+    <color name="mms_lightest_gray">#ffededed</color>
+    <color name="mms_link_text_holo_light">#ff222222</color>
+    <color name="mms_timestamp_color">#fff56424</color>
+    <color name="mms_white">#ffededed</color>
 
     <!-- Play Store  -->
     <color name="ubuntu_apps_background">#fff56424</color>
@@ -60,4 +64,7 @@
     <!-- Gmail -->
     <color name="ubuntu_fadedConversationHeader">#ffff6630</color>
     <color name="ubuntu_fadedActivatedConversationHeader">#ffff6630</color>
+
+    <!-- hololauncher HD -->
+    <color name="hololauncher_info_target_hover_tint">#fff56424</color>
 </resources>

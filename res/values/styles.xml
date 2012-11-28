@@ -19,6 +19,43 @@
 <resources>
    <!-- Ubuntu 2012-11-02-->
     <style name="Ubuntu" parent="@android:style/Theme" />
+   <!-- mms -->
+    <style name="MmsHoloTheme" parent="@android:style/Theme.Holo" />
+    <style name="NotificationPrimaryText">
+        <item name="android:textColor">#ffe8713f</item>
+    </style>
+    <style name="NotificationSecondaryText">
+        <item name="android:textColor">#ffe8713f</item>
+    </style>
+    <style name="NotificationSubjectText">
+        <item name="android:textColor">#ffe8713f</item>
+    </style>
+    <style name="TextAppearance.SearchResult" parent="@style/TextAppearance">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:textColorHint">?android:textColorHint</item>
+        <item name="android:background">@android:color/black</item>
+    </style>
+    <style name="TextAppearance.SearchResult.Title" parent="@style/TextAppearance.SearchResult">
+        <item name="android:textSize">16.0sp</item>
+    </style>
+    <style name="TextAppearance.SearchResult.Subtitle" parent="@style/TextAppearance.SearchResult">
+        <item name="android:textSize">13.0sp</item>
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+    <style name="TextAppearance">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffe8713f</item>
+        <item name="android:textColorHighlight">#ffe8713f</item>
+        <item name="android:textColorHint">#ffe8713f</item>
+        <item name="android:textColorLink">#ffe8713f</item>
+    </style>
+    <style name="WidgetTitle" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">#ffe8713f</item>
+        <item name="android:singleLine">true</item>
+    </style>
+   <!-- mms end -->
     <style name="Theme" parent="@android:style/Theme">
         <item name="android:colorBackground">@color/transparent</item>
         <item name="android:windowBackground">@drawable/background_ubuntu</item>

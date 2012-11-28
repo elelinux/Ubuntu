@@ -34,6 +34,13 @@
     <item type="drawable" name="status_bar_recents_background_solid">#80000000</item>
     <item type="drawable" name="ticker_background_color">#80000000</item>
 
+   <!-- Mms -->
+    <item type="drawable" name="gradient_bg_mms_widget_holo">@drawable/com_android_mms_gradient_bg_mms_widget_holo</item>
+    <item type="drawable" name="gradient_bg_widget_holo">@drawable/com_android_mms_gradient_bg_widget_holo</item>
+    <item type="drawable" name="hairline_left">@drawable/com_android_mms_hairline_left</item>
+    <item type="drawable" name="hairline_right">@drawable/com_android_mms_hairline_right</item>
+    <item type="drawable" name="header_bg_mms_widget_holo">@drawable/com_android_mms_header_bg_mms_widget_holo</item>
+
    <!-- HTC Stock 2012-06-15-->
     <drawable name="alert_dark_frame">@drawable/frameworks_res_popup_full_dark</drawable>
     <drawable name="alert_light_frame">@drawable/frameworks_res_popup_full_bright</drawable>
