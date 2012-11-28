@@ -24,7 +24,6 @@
     android:versionName="1.0.2.5"
     android:installLocation="internalOnly"
     android:hasCode="false">
-    <uses-sdk android:minSdkVersion="13" />
 
     <!-- Make sure this theme APK only shows up on appropriate devices. -->
    <uses-feature android:name="com.tmobile.software.themes" /> 
@@ -51,11 +50,6 @@
         pluto:ringtoneFileName="media/audio/ringtones/Old_Phone.mp3" 
         pluto:notificationRingtoneName="Teleport" 
         pluto:notificationRingtoneFileName="media/audio/notifications/Teleport.mp3">
-
-        <!-- Currently this is not being read, but instead the redirections are
-             inferred from the convention res/xml/<package_name>.xml. -->
-    <!--    <meta-data android:name="com.tmobile.theme.redirections"
-            android:resource="@xml/redirections" /> -->
 
     </theme>
 
