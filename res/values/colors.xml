@@ -27,21 +27,30 @@
     <color name="transparent">#80000000</color>
     <color name="grey_light">#ffdbd7d2</color>
 
-    <!-- HTC Stock -->
-    <color name="background_dark">#ff000000</color>
-    <color name="background_holo_dark">#ff000000</color>
-    <color name="background_holo_light">#fff3f3f3</color>
-    <color name="background_light">#ffffffff</color>
-    <color name="black">#ff000000</color>
-
-    <!-- Ubuntu calculator -->
+    <!-- Calculator -->
     <color name="ubuntu_button_text">#fff56424</color>
     <color name="ubuntu_magic_flame">#00FFFFFF</color>
     <color name="ubuntu_pressed_color">#fff55610</color>
     <color name="ubuntu_history_result">#FFC40C</color>
     <color name="ubuntu_background">#ff000000</color>
 
-    <!-- Ubuntu mms -->
+    <!-- Contacts -->
+    <color name="contacts_link_text_light">#ff333333</color>
+    <color name="contacts_bright_foreground_disabled_holo_dark">#ff999999</color>
+    <color name="contacts_dialtacts_secondary_text_color">#ffededed</color>
+    <color name="contacts_section_header_text_color">#fff56424</color>
+    <color name="contacts_primary_text_color">#fff56424</color>
+    <color name="contacts_black">#ff000000</color>
+    <color name="contacts_white">#ffededed</color>
+
+    <!-- Deskclock -->
+    <color name="deskclock_cling_text">#fff56424</color>
+    <color name="deskclock_fg_bar">#fff56424</color>
+    <color name="deskclock_main_timer_clock">#ffe8713f</color>
+    <color name="deskclock_screen_saver_color">#ffe8713f</color>
+    <color name="deskclock_titlebar_separator">#fff56424</color>
+
+    <!-- Mms -->
     <color name="mms_background_primary">#ff000000</color>
     <color name="mms_dark_blue">#fff55610</color>
     <color name="mms_lightest_gray">#ffededed</color>
@@ -67,4 +76,11 @@
 
     <!-- hololauncher HD -->
     <color name="hololauncher_info_target_hover_tint">#fff56424</color>
+
+    <!-- HTC Stock -->
+    <color name="background_dark">#ff000000</color>
+    <color name="background_holo_dark">#ff000000</color>
+    <color name="background_holo_light">#fff3f3f3</color>
+    <color name="background_light">#ffffffff</color>
+    <color name="black">#ff000000</color>
 </resources>
