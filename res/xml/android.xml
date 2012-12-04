@@ -64,6 +64,24 @@
     <item name="style/Animation.RecentApplications">@style/Animation.RecentApplications</item>
     <item name="style/Animation.VolumePanel">@style/Animation.VolumePanel</item>
 
+    <item name="style/TextAppearance.Holo.Light.Inverse">@style/TextAppearance.Holo.Light.Inverse</item>
+    <item name="style/TextAppearance.Inverse">@style/TextAppearance.Inverse</item>
+    <item name="style/TextAppearance.StatusBar.EventContent.Info">@style/TextAppearance.StatusBar.EventContent.Info</item>
+    <item name="style/TextAppearance.StatusBar.EventContent.Line2">@style/TextAppearance.StatusBar.EventContent.Line2</item>
+    <item name="style/TextAppearance.StatusBar.EventContent">@style/TextAppearance.StatusBar.EventContent</item>
+    <item name="style/TextAppearance.StatusBar.EventContent.Time">@style/TextAppearance.StatusBar.EventContent.Time</item>
+    <item name="style/TextAppearance.StatusBar.EventContent.Title">@style/TextAppearance.StatusBar.EventContent.Title</item>
+    <item name="style/TextAppearance.StatusBar">@style/TextAppearance.StatusBar</item>
+    <item name="style/TextAppearance.StatusBar.Ticker">@style/TextAppearance.StatusBar.Ticker</item>
+    <item name="style/TextAppearance.StatusBar.Title">@style/TextAppearance.StatusBar.Title</item>
+    <item name="style/TextAppearance.Widget.DropDownHint">@style/TextAppearance.Widget.DropDownHint</item>
+    <item name="style/TextAppearance.Widget.DropDownItem">@style/Theme.Holo.Light.DarkActionBar</item>
+    <item name="style/Theme.Holo.Light.DarkActionBar">@style/Theme.Holo.Light.DarkActionBar</item>
+    <item name="style/Theme.Holo.Light.Dialog">@style/Theme.Holo.Light.Dialog</item>
+    <item name="style/Theme.Holo.Light">@style/Theme.Holo.Light</item>
+    <item name="style/Theme.Holo">@style/Theme.Holo</item>
+    <item name="style/Widget.Holo.Light.ActionBar.TabText.Inverse">@style/Widget.Holo.Light.ActionBar.TabText.Inverse</item>
+
     <!-- Theme Ubuntu battery dep. -->
     <item name="drawable/stat_sys_battery">@drawable/stat_sys_battery</item>
     <item name="drawable/stat_sys_battery_charge">@drawable/stat_sys_battery_charge</item>

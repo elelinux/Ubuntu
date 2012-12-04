@@ -49,6 +49,11 @@
 
     <!-- statusbar -->
     <item name="drawable/status_bar_background">@drawable/status_bar_background</item>
+    <item name="drawable/status_bar_close">@drawable/com_android_systemui_status_bar_close</item>
+    <item name="drawable/status_bar_close_off">@drawable/com_android_systemui_status_bar_close_off</item>
+    <item name="drawable/status_bar_close_off">@drawable/status_bar_close_off</item>
+    <item name="drawable/status_bar_close_on">@drawable/com_android_systemui_status_bar_close_on</item>
+    <item name="drawable/status_bar_close_on">@drawable/status_bar_close_on</item>
 
     <!-- notification pressed color -->
     <item name="drawable/notification_item_background_color_pressed">@color/ubuntu_main</item>

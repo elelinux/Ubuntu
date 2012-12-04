@@ -41,6 +41,9 @@
     <item type="drawable" name="hairline_right">@drawable/com_android_mms_hairline_right</item>
     <item type="drawable" name="header_bg_mms_widget_holo">@drawable/com_android_mms_header_bg_mms_widget_holo</item>
 
+   <!-- Contacts -->
+    <item type="drawable" name="list_background_holo">@drawable/com_android_contacts_list_background_holo</item>
+
    <!-- HTC Stock 2012-06-15-->
     <drawable name="alert_dark_frame">@drawable/frameworks_res_popup_full_dark</drawable>
     <drawable name="alert_light_frame">@drawable/frameworks_res_popup_full_bright</drawable>

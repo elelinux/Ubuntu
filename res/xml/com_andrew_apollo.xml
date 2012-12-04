@@ -20,6 +20,7 @@
     <!-- Theme Apollo color's  -->
     <item name="color/holo_blue_dark">@color/ubuntu_dark</item>
     <item name="color/transparent_black">@color/ubuntu_bright</item>
+    <item name="color/tab_text_color">@color/com_andrew_apollo_tab_text_color</item>
     <!-- Theme Apollo -->
     <item name="drawable/apollo_holo_light_favorite_normal">@drawable/com_andrew_apollo_apollo_holo_light_favorite_normal</item>
     <item name="drawable/apollo_holo_light_next">@drawable/com_andrew_apollo_apollo_holo_light_next</item>
@@ -28,9 +29,13 @@
     <item name="drawable/apollo_holo_light_play">@drawable/com_andrew_apollo_apollo_holo_light_play</item>
     <item name="drawable/apollo_holo_light_previous">@drawable/com_andrew_apollo_apollo_holo_light_previous</item>
     <item name="drawable/apollo_holo_light_repeat_all">@drawable/com_andrew_apollo_apollo_holo_light_repeat_all</item>
+    <item name="drawable/apollo_holo_light_repeat_normal">@drawable/apollo_apollo_holo_light_repeat_normal</item>
     <item name="drawable/apollo_holo_light_repeat_normal">@drawable/com_andrew_apollo_apollo_holo_light_repeat_normal</item>
     <item name="drawable/apollo_holo_light_repeat_one">@drawable/com_andrew_apollo_apollo_holo_light_repeat_one</item>
+    <item name="drawable/apollo_holo_light_search">@drawable/apollo_apollo_holo_light_search</item>
+    <item name="drawable/apollo_holo_light_shuffle_normal">@drawable/apollo_apollo_holo_light_shuffle_normal</item>
     <item name="drawable/apollo_holo_light_shuffle_on">@drawable/apollo_apollo_holo_light_shuffle_on</item>
+    <item name="drawable/apollo_settings_themes">@drawable/apollo_apollo_settings_themes</item>
     <item name="drawable/appwidget_bg">@drawable/com_andrew_apollo_appwidget_bg</item>
     <item name="drawable/indicator_playing_peak_meter_1">@drawable/com_andrew_apollo_indicator_playing_peak_meter_1</item>
     <item name="drawable/indicator_playing_peak_meter_2">@drawable/com_andrew_apollo_indicator_playing_peak_meter_2</item>
