@@ -34,11 +34,11 @@
     <item name="color/divider_dark">@color/white</item>
     <item name="color/event_divider">@color/dark_blue</item>
     <item name="color/follow_btn_text">@color/com_twitter_android_follow_btn_text</item>
-    <item name="color/link_color">@color/holo_green_light</item>
+    <item name="color/link_color">@color/holo_blue_bright</item>
     <item name="color/list_divider_color">@color/dark_blue</item>
     <item name="color/list_item_secondary_text">@color/com_twitter_android_list_item_secondary_text</item>
     <item name="color/mentioned">@color/pink</item>
-    <item name="color/primary_text">@color/white</item>
+    <item name="color/primary_text">@color/holo_blue_bright</item>
     <item name="color/secondary_text">@color/bright_foreground_dark_disabled</item>
     <item name="color/soft_black">@color/dark_gray</item>
     <item name="color/solid_black">@color/med_gray</item>

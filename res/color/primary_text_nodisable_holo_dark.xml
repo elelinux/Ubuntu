@@ -16,4 +16,9 @@
  # limitations under the License.
  -->
 
-<decelerateInterpolator />
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item state_selected="true" color="@color/bright_foreground_dark_inverse"/>
+    <item state_activated="true" color="@color/bright_foreground_dark_inverse"/>
+    <item color="@color/bright_foreground_dark"/> <!-- not selected -->
+</selector>
+

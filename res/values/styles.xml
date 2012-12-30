@@ -34,7 +34,7 @@
         <item name="android:textStyle">normal</item>
         <item name="android:textColor">?android:textColorPrimary</item>
         <item name="android:textColorHint">?android:textColorHint</item>
-        <item name="android:background">@android:color/black</item>
+        <item name="android:background">@android:color/transparent</item>
     </style>
     <style name="TextAppearance.SearchResult.Title" parent="@style/TextAppearance.SearchResult">
         <item name="android:textSize">16.0sp</item>
@@ -123,13 +123,29 @@
     </style>
    <!-- contacts style end -->
    <!-- Ubuntu style -->
-    <style name="Theme" parent="@android:style/Theme">
-        <item name="android:colorBackground">@color/transparent</item>
-        <item name="android:windowBackground">@drawable/background_ubuntu</item>
-    </style> 
-    <style name="Theme.Light" parent="@android:style/Theme">
-        <item name="android:colorBackground">@color/transparent</item>
-        <item name="android:windowBackground">@drawable/background_ubuntu_2</item>
+<!--    <style name="Theme.Dialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+    <style name="textViewStyle" parent="@android:style/Widget.TextView">
+        <item name="android:textColorPrimary">@color/primary_text_dark</item>
+        <item name="android:textColorSecondary">@color/secondary_text_dark</item>
+        <item name="android:textColorTertiary">@color/tertiary_text_dark</item>
+        <item name="android:textColorPrimaryInverse">@color/primary_text_light</item>
+        <item name="android:textColorSecondaryInverse">@color/secondary_text_light</item>
+        <item name="android:textColorTertiaryInverse">@color/tertiary_text_light</item>
+        <item name="android:textColorPrimaryDisableOnly">@color/primary_text_dark_disable_only</item>
+        <item name="android:textColorPrimaryInverseDisableOnly">@color/primary_text_light_disable_only</item>
+        <item name="android:textColorPrimaryNoDisable">@color/primary_text_dark_nodisable</item>
+        <item name="android:textColorSecondaryNoDisable">@color/secondary_text_dark_nodisable</item>
+        <item name="android:textColorPrimaryInverseNoDisable">@color/primary_text_light_nodisable</item>
+        <item name="android:textColorSecondaryInverseNoDisable">@color/secondary_text_light_nodisable</item>
+        <item name="android:textColorHint">@color/hint_foreground_dark</item>
+        <item name="android:textColorHintInverse">@color/hint_foreground_light</item>
+        <item name="android:textColorHighlight">@color/highlighted_text_dark</item>
+        <item name="android:textColorHighlightInverse">@color/highlighted_text_light</item>
+        <item name="android:textColorLink">@color/link_text_dark</item>
+        <item name="android:textColorLinkInverse">@color/link_text_light</item>
+        <item name="android:textColorAlertDialogListItem">@color/primary_text_light_disable_only</item>
     </style>
     <style name="Widget.ProgressBar.Horizontal" parent="@android:style/Widget.ProgressBar">
         <item name="android:maxHeight">10.0dip</item>
@@ -151,7 +167,6 @@
     <style name="Text">
         <item name="android:textColor">@android:color/holo_blue_light</item>
     </style>
-    <!-- Light Holo -->
     <style name="Theme.Holo" parent="@android:style/Theme.Holo">
         <item name="android:editTextColor">#fff56424</item>
         <item name="android:textCursorDrawable">@drawable/text_cursor_holo_light</item>
@@ -188,7 +203,9 @@
     </style>
     <style name="Widget.Holo.Light.ActionBar.TabText.Inverse" parent="@android:style/Widget.Holo.Light.ActionBar.TabText">
         <item name="android:textColor">?android:textColorPrimary</item>
-    </style>
+    </style> -->
+   <!-- Ubuntu style end -->
+    <!-- Systemui -->
     <style name="TextAppearance.StatusBar.EventContent.Line2" parent="@style/TextAppearance.StatusBar.EventContent">
         <item name="android:textSize">12.0dip</item>
         <item name="android:textColor">#ffffffff</item>
@@ -219,8 +236,6 @@
         <item name="android:textStyle">bold</item>
         <item name="android:textColor">#ffffffff</item>
     </style>
-   <!-- Ubuntu style end -->
-    <!-- Systemui -->
     <style name="TextAppearance.StatusBar.Clock" parent="@android:style/TextAppearance.StatusBar.Icon">
         <item name="android:textSize">16.0dip</item>
         <item name="android:textStyle">normal</item>
@@ -371,7 +386,7 @@
     </style>
     <style name="TitleText">
         <item name="android:textStyle">bold</item>
-        <item name="android:textColor">@color/lightest_gray</item>
+        <item name="android:textColor">@color/holo_blue_bright</item>
         <item name="android:ellipsize">end</item>
         <item name="android:singleLine">true</item>
         <item name="android:shadowColor">@color/med_gray</item>

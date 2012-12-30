@@ -16,5 +16,9 @@
  # limitations under the License.
  -->
 
-<alpha android:interpolator="@anim/decelerate_interpolator" android:duration="@*android:integer/config_mediumAnimTime" android:fromAlpha="0.0" android:toAlpha="1.0"
-  xmlns:android="http://schemas.android.com/apk/res/android" />
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item state_selected="true" color="@color/bright_foreground_light"/>
+    <item state_activated="true" color="@color/bright_foreground_light"/>
+    <item color="@color/bright_foreground_light"/> <!-- not selected -->
+</selector>
+
