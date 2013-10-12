@@ -22,9 +22,13 @@
 
     <item name="drawable/app_gauge">@drawable/com_android_settings_app_gauge</item>
     <item name="drawable/appwidget_bg_holo">@drawable/com_android_settings_appwidget_bg_holo</item>
+    <item name="drawable/appwidget_inner_focused_c_holo">@drawable/com_android_settings_appwidget_inner_focused_c_holo</item>
+    <item name="drawable/appwidget_inner_focused_l_holo">@drawable/com_android_settings_appwidget_inner_focused_l_holo</item>
+    <item name="drawable/appwidget_inner_focused_r_holo">@drawable/com_android_settings_appwidget_inner_focused_r_holo</item>
     <item name="drawable/appwidget_inner_pressed_c_holo">@drawable/com_android_settings_appwidget_inner_pressed_c_holo</item>
     <item name="drawable/appwidget_inner_pressed_l_holo">@drawable/com_android_settings_appwidget_inner_pressed_l_holo</item>
     <item name="drawable/appwidget_inner_pressed_r_holo">@drawable/com_android_settings_appwidget_inner_pressed_r_holo</item>
+    <item name="drawable/appwidget_item_bg_pressed">@drawable/com_android_settings_appwidget_item_bg_pressed</item>
     <item name="drawable/appwidget_settings_divider_holo">@drawable/com_android_settings_appwidget_settings_divider_holo</item>
     <item name="drawable/appwidget_settings_ind_mid_c_holo">@drawable/com_android_settings_appwidget_settings_ind_mid_c_holo</item>
     <item name="drawable/appwidget_settings_ind_mid_l_holo">@drawable/com_android_settings_appwidget_settings_ind_mid_l_holo</item>
@@ -98,6 +102,7 @@
     <item name="drawable/ic_power_system">@drawable/com_android_settings_ic_power_system</item>
     <item name="drawable/ic_settings_about">@drawable/com_android_settings_ic_settings_about</item>
     <item name="drawable/ic_settings_accessibility">@drawable/com_android_settings_ic_settings_accessibility</item>
+    <item name="drawable/ic_settings_advanced">@drawable/com_android_settings_ic_settings_advanced</item>
     <item name="drawable/ic_settings_applications">@drawable/com_android_settings_ic_settings_applications</item>
     <item name="drawable/ic_settings_backup">@drawable/com_android_settings_ic_settings_backup</item>
     <item name="drawable/ic_settings_battery">@drawable/com_android_settings_ic_settings_battery</item>
@@ -115,17 +120,19 @@
     <item name="drawable/ic_settings_language">@drawable/com_android_settings_ic_settings_language</item>
     <item name="drawable/ic_settings_location">@drawable/com_android_settings_ic_settings_location</item>
     <item name="drawable/ic_settings_lockscreen">@drawable/com_android_settings_ic_settings_lockscreen</item>
+    <item name="drawable/ic_settings_multiuser">@drawable/com_android_settings_ic_settings_multiuser</item>
     <item name="drawable/ic_settings_performance">@drawable/com_android_settings_ic_settings_performance</item>
+    <item name="drawable/ic_settings_permissions">@drawable/com_android_settings_ic_settings_permissions</item>
     <item name="drawable/ic_settings_phone_idle">@drawable/com_android_settings_ic_settings_phone_idle</item>
     <item name="drawable/ic_settings_profiles">@drawable/com_android_settings_ic_settings_profiles</item>
     <item name="drawable/ic_settings_rom_control">@drawable/com_android_settings_ic_settings_rom_control</item>
-    <item name="drawable/ic_settings_toolbox">@drawable/com_android_settings_ic_settings_toolbox</item>
     <item name="drawable/ic_settings_security">@drawable/com_android_settings_ic_settings_security</item>
     <item name="drawable/ic_settings_sound">@drawable/com_android_settings_ic_settings_sound</item>
     <item name="drawable/ic_settings_storage">@drawable/com_android_settings_ic_settings_storage</item>
     <item name="drawable/ic_settings_sync">@drawable/com_android_settings_ic_settings_sync</item>
     <item name="drawable/ic_settings_system">@drawable/com_android_settings_ic_settings_system</item>
     <item name="drawable/ic_settings_themes">@drawable/com_android_settings_ic_settings_themes</item>
+    <item name="drawable/ic_settings_toolbox">@drawable/com_android_settings_ic_settings_toolbox</item>
     <item name="drawable/ic_settings_voice_calls">@drawable/com_android_settings_ic_settings_voice_calls</item>
     <item name="drawable/ic_settings_wifi">@drawable/com_android_settings_ic_settings_wifi</item>
     <item name="drawable/ic_settings_wireless">@drawable/com_android_settings_ic_settings_wireless</item>
@@ -172,8 +179,13 @@
     <item name="drawable/lock_anim_9">@drawable/com_android_settings_lock_anim_9</item>
     <item name="drawable/nav_divider">@drawable/com_android_settings_nav_divider</item>
     <item name="drawable/password_field_default">@drawable/com_android_settings_password_field_default</item>
+    <item name="drawable/preview">@drawable/com_android_settings_preview</item>
     <item name="drawable/stat_sys_phone_call">@drawable/com_android_settings_stat_sys_phone_call</item>
     <item name="mipmap/ic_launcher_settings">@drawable/com_android_settings_ic_launcher_settings</item>
+
+    <!-- AOKP -->
+    <item name="drawable/ic_settings_rom_control">@drawable/com_android_settings_ic_settings_rom_control</item>
+    <item name="drawable/ic_settings_darkui">@drawable/com_android_settings_ic_settings_darkui</item>
 
     <!-- Owain's rom support -->
     <item name="drawable/ic_owain_system">@drawable/com_android_settings_ic_owain_system</item>

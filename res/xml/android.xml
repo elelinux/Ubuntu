@@ -126,7 +126,8 @@
     <item name="drawable/notification_template_icon_bg">@drawable/frameworks_res_notification_template_icon_bg</item>
 
     <!-- Theme Ubuntu animation style -->
-    <item name="style/TextAppearance.Holo.Light.Inverse">@style/TextAppearance.Holo.Light.Inverse</item>
+    <item name="style/Theme">@style/Theme</item>
+<!--    <item name="style/TextAppearance.Holo.Light.Inverse">@style/TextAppearance.Holo.Light.Inverse</item>
     <item name="style/TextAppearance.Inverse">@style/TextAppearance.Inverse</item>
     <item name="style/TextAppearance.StatusBar.EventContent.Info">@style/TextAppearance.StatusBar.EventContent.Info</item>
     <item name="style/TextAppearance.StatusBar.EventContent.Line2">@style/TextAppearance.StatusBar.EventContent.Line2</item>
@@ -142,7 +143,29 @@
     <item name="style/Theme.Holo.Light.Dialog">@style/Theme.Holo.Light.Dialog</item>
     <item name="style/ThemeDialog">@style/ThemeDialog</item>
     <item name="style/textViewStyle">@style/textViewStyle</item>
-    <item name="style/Widget.Holo.Light.ActionBar.TabText.Inverse">@style/Widget.Holo.Light.ActionBar.TabText.Inverse</item>
+    <item name="style/Widget.Holo.Light.ActionBar.TabText.Inverse">@style/Widget.Holo.Light.ActionBar.TabText.Inverse</item>-->
+
+    <!-- Test -->
+    <item name="style/TextAppearance.Holo.DialogWindowTitle">@style/TextAppearance.Holo.DialogWindowTitle</item>
+    <item name="style/TextAppearance.Holo.Light.Widget.DropDownHint">@style/TextAppearance.Holo.Widget.DropDownHint</item>
+    <item name="style/TextAppearance.Holo.Light.Widget.DropDownItem">@style/TextAppearance.Holo.Widget.DropDownItem</item>
+    <item name="style/TextAppearance.Holo.Light.Widget.TextView.SpinnerItem">@style/TextAppearance.Holo.Widget.TextView.SpinnerItem</item>
+    <item name="style/TextAppearance.Holo.Widget.DropDownHint">@style/TextAppearance.Holo.Widget.DropDownHint</item>
+    <item name="style/TextAppearance.Holo.Widget.DropDownItem">@style/TextAppearance.Holo.Widget.DropDownItem</item>
+    <item name="style/TextAppearance.Holo.Widget.EditText">@style/TextAppearance.Holo.Widget.EditText</item>
+    <item name="style/TextAppearance.Holo.Widget.PopupMenu">@style/TextAppearance.Holo.Widget.PopupMenu</item>
+    <item name="style/TextAppearance.Holo.Widget.TextView.PopupMenu">@style/TextAppearance.Widget.PopupMenu</item>
+    <item name="style/TextAppearance.Holo.Widget.TextView.SpinnerItem">@style/TextAppearance.Holo.Widget.TextView.SpinnerItem</item>
+    <item name="style/TextAppearance.Widget.DropDownHint">@style/TextAppearance.Widget.DropDownHint</item>
+    <item name="style/TextAppearance.Widget.DropDownItem">@style/TextAppearance.Widget.DropDownItem</item>
+    <item name="style/Theme.Holo.Light.Dialog">@style/Theme.Holo.Light.Dialog</item>
+    <item name="style/Theme.Holo.Light">@style/Theme.Holo.Light</item>
+    <item name="style/Widget.CompoundButton">@style/Widget.CompoundButton</item>
+    <item name="style/Widget.Holo.Light.AutoCompleteTextView">@style/Widget.Holo.Light.AutoCompleteTextView</item>
+
+    <item name="style/TextAppearance.Holo.DialogWindowTitle">@style/TextAppearance.Holo.DialogWindowTitle</item>
+    <item name="style/TextAppearance.Holo.Widget.Switch">@style/TextAppearance.Holo.Widget.Switch</item>
+
 
     <!-- Theme Ubuntu battery dep. -->
     <item name="drawable/stat_sys_battery">@drawable/stat_sys_battery</item>
@@ -150,6 +173,7 @@
     <item name="drawable/zzz_stat_sys_battery_1">@drawable/zzz_stat_sys_battery_1</item>
 
     <!-- Theme Ubuntu -->
+    <item name="drawable/list_activated_holo">@drawable/list_activated_holo</item>
     <item name="drawable/ab_bottom_solid_dark_holo">@drawable/frameworks_res_ab_bottom_solid_dark_holo</item>
     <item name="drawable/ab_bottom_solid_inverse_holo">@drawable/frameworks_res_ab_bottom_solid_inverse_holo</item>
     <item name="drawable/ab_bottom_solid_light_holo9">@drawable/frameworks_res_ab_bottom_solid_light_holo9</item>
@@ -185,10 +209,8 @@
     <item name="drawable/activity_title_bar">@drawable/frameworks_res_activity_title_bar</item>
     <item name="drawable/arrow_down_float">@drawable/frameworks_res_arrow_down_float</item>
     <item name="drawable/arrow_up_float">@drawable/frameworks_res_arrow_up_float</item>
-
     <item name="drawable/background_holo_dark">@drawable/frameworks_res_background_holo_dark</item>
     <item name="drawable/background_holo_light">@drawable/frameworks_res_background_holo_light</item>
-    <item name="drawable/cm_background_holo_dark">@drawable/frameworks_res_cm_background_holo_dark</item>
     <item name="drawable/battery_charge_background">@drawable/frameworks_res_battery_charge_background</item>
     <item name="drawable/bottom_bar">@drawable/frameworks_res_bottom_bar</item>
     <item name="drawable/btn_cab_done_default_holo_dark9">@drawable/frameworks_res_btn_cab_done_default_holo_dark9</item>
@@ -481,7 +503,6 @@
     <item name="drawable/btn_zoom_up_selected">@drawable/frameworks_res_btn_zoom_up_selected</item>
     <item name="drawable/button_onoff_indicator_off">@drawable/frameworks_res_button_onoff_indicator_off</item>
     <item name="drawable/button_onoff_indicator_on">@drawable/frameworks_res_button_onoff_indicator_on</item>
-
     <item name="drawable/cab_background_bottom_holo_dark">@drawable/frameworks_res_cab_background_bottom_holo_dark</item>
     <item name="drawable/cab_background_bottom_holo_light">@drawable/frameworks_res_cab_background_bottom_holo_light</item>
     <item name="drawable/cab_background_top_holo_dark">@drawable/frameworks_res_cab_background_top_holo_dark</item>
@@ -492,6 +513,7 @@
     <item name="drawable/clock_dial">@drawable/frameworks_res_clock_dial</item>
     <item name="drawable/clock_hand_hour">@drawable/frameworks_res_clock_hand_hour</item>
     <item name="drawable/clock_hand_minute">@drawable/frameworks_res_clock_hand_minute</item>
+    <item name="drawable/cm_background_holo_dark">@drawable/frameworks_res_cm_background_holo_dark</item>
     <item name="drawable/code_lock_bottom">@drawable/frameworks_res_code_lock_bottom</item>
     <item name="drawable/code_lock_left">@drawable/frameworks_res_code_lock_left</item>
     <item name="drawable/code_lock_top">@drawable/frameworks_res_code_lock_top</item>
@@ -501,7 +523,6 @@
     <item name="drawable/compass_base">@drawable/frameworks_res_compass_base</item>
     <item name="drawable/contact_header_bg">@drawable/frameworks_res_contact_header_bg</item>
     <item name="drawable/create_contact">@drawable/frameworks_res_create_contact</item>
-
     <item name="drawable/dark_header">@drawable/frameworks_res_dark_header</item>
     <item name="drawable/day_picker_week_view_dayline_holo">@drawable/frameworks_res_day_picker_week_view_dayline_holo</item>
     <item name="drawable/dialog_bottom_holo_dark">@drawable/frameworks_res_dialog_bottom_holo_dark</item>
@@ -557,7 +578,6 @@
     <item name="drawable/dropdown_normal_holo_light">@drawable/frameworks_res_dropdown_normal_holo_light</item>
     <item name="drawable/dropdown_pressed_holo_dark">@drawable/frameworks_res_dropdown_pressed_holo_dark</item>
     <item name="drawable/dropdown_pressed_holo_light">@drawable/frameworks_res_dropdown_pressed_holo_light</item>
-
     <item name="drawable/editbox_background_focus_yellow">@drawable/frameworks_res_editbox_background_focus_yellow</item>
     <item name="drawable/editbox_background_normal">@drawable/frameworks_res_editbox_background_normal</item>
     <item name="drawable/editbox_dropdown_background_dark">@drawable/frameworks_res_editbox_dropdown_background_dark</item>
@@ -589,7 +609,6 @@
     <item name="drawable/expander_ic_minimized">@drawable/frameworks_res_expander_ic_minimized</item>
     <item name="drawable/expander_open_holo_dark">@drawable/frameworks_res_expander_open_holo_dark</item>
     <item name="drawable/expander_open_holo_light">@drawable/frameworks_res_expander_open_holo_light</item>
-
     <item name="drawable/fastscroll_label_left_holo_dark">@drawable/frameworks_res_fastscroll_label_left_holo_dark</item>
     <item name="drawable/fastscroll_label_left_holo_light">@drawable/frameworks_res_fastscroll_label_left_holo_light</item>
     <item name="drawable/fastscroll_label_right_holo_dark">@drawable/frameworks_res_fastscroll_label_right_holo_dark</item>
@@ -606,7 +625,6 @@
     <item name="drawable/frame_gallery_thumb">@drawable/frameworks_res_frame_gallery_thumb</item>
     <item name="drawable/frame_gallery_thumb_pressed">@drawable/frameworks_res_frame_gallery_thumb_pressed</item>
     <item name="drawable/frame_gallery_thumb_selected">@drawable/frameworks_res_frame_gallery_thumb_selected</item>
-
     <item name="drawable/gallery_selected_default">@drawable/frameworks_res_gallery_selected_default</item>
     <item name="drawable/gallery_selected_focused">@drawable/frameworks_res_gallery_selected_focused</item>
     <item name="drawable/gallery_selected_pressed">@drawable/frameworks_res_gallery_selected_pressed</item>
@@ -614,11 +632,9 @@
     <item name="drawable/gallery_unselected_pressed">@drawable/frameworks_res_gallery_unselected_pressed</item>
     <item name="drawable/grid_selector_background_focus">@drawable/frameworks_res_grid_selector_background_focus</item>
     <item name="drawable/grid_selector_background_pressed">@drawable/frameworks_res_grid_selector_background_pressed</item>
-
     <item name="drawable/highlight_disabled">@drawable/frameworks_res_highlight_disabled</item>
     <item name="drawable/highlight_pressed">@drawable/frameworks_res_highlight_pressed</item>
     <item name="drawable/highlight_selected">@drawable/frameworks_res_highlight_selected</item>
-
     <item name="drawable/ic_ab_back_holo_dark">@drawable/frameworks_res_ic_ab_back_holo_dark</item>
     <item name="drawable/ic_ab_back_holo_light">@drawable/frameworks_res_ic_ab_back_holo_light</item>
     <item name="drawable/ic_aggregated">@drawable/frameworks_res_ic_aggregated</item>
@@ -782,7 +798,6 @@
     <item name="drawable/ic_lock_silent_mode_off">@drawable/frameworks_res_ic_lock_silent_mode_off</item>
     <item name="drawable/ic_lock_silent_mode_vibrate">@drawable/frameworks_res_ic_lock_silent_mode_vibrate</item>
     <item name="drawable/ic_lock_torch">@drawable/frameworks_res_ic_lock_torch</item>
-
     <item name="drawable/ic_maps_indicator_current_position_anim1">@drawable/frameworks_res_ic_maps_indicator_current_position_anim1</item>
     <item name="drawable/ic_maps_indicator_current_position_anim2">@drawable/frameworks_res_ic_maps_indicator_current_position_anim2</item>
     <item name="drawable/ic_maps_indicator_current_position_anim3">@drawable/frameworks_res_ic_maps_indicator_current_position_anim3</item>
@@ -931,7 +946,6 @@
     <item name="drawable/indicator_code_lock_point_area_red">@drawable/frameworks_res_indicator_code_lock_point_area_red</item>
     <item name="drawable/indicator_code_lock_point_area_red_holo">@drawable/frameworks_res_indicator_code_lock_point_area_red_holo</item>
     <item name="drawable/indicator_input_error">@drawable/frameworks_res_indicator_input_error</item>
-
     <item name="drawable/jog_dial_arrow_long_left_green">@drawable/frameworks_res_jog_dial_arrow_long_left_green</item>
     <item name="drawable/jog_dial_arrow_long_left_yellow">@drawable/frameworks_res_jog_dial_arrow_long_left_yellow</item>
     <item name="drawable/jog_dial_arrow_long_middle_yellow">@drawable/frameworks_res_jog_dial_arrow_long_middle_yellow</item>
@@ -971,56 +985,93 @@
     <item name="drawable/jog_tab_target_green">@drawable/frameworks_res_jog_tab_target_green</item>
     <item name="drawable/jog_tab_target_red">@drawable/frameworks_res_jog_tab_target_red</item>
     <item name="drawable/jog_tab_target_yellow">@drawable/frameworks_res_jog_tab_target_yellow</item>
-
     <item name="drawable/keyboard_accessory_bg_landscape">@drawable/frameworks_res_keyboard_accessory_bg_landscape</item>
     <item name="drawable/keyboard_background">@drawable/frameworks_res_keyboard_background</item>
     <item name="drawable/keyboard_key_feedback_background">@drawable/frameworks_res_keyboard_key_feedback_background</item>
     <item name="drawable/keyboard_key_feedback_more_background">@drawable/frameworks_res_keyboard_key_feedback_more_background</item>
     <item name="drawable/keyboard_popup_panel_background">@drawable/frameworks_res_keyboard_popup_panel_background</item>
     <item name="drawable/keyboard_popup_panel_trans_background">@drawable/frameworks_res_keyboard_popup_panel_trans_background</item>
-
     <item name="drawable/light_header">@drawable/frameworks_res_light_header</item>
     <item name="drawable/list_activated_holo">@drawable/frameworks_res_list_activated_holo</item>
+    <item name="drawable/list_activated_holo">@drawable/list_activated_holo</item>
     <item name="drawable/list_divider_holo_dark">@drawable/frameworks_res_list_divider_holo_dark</item>
+    <item name="drawable/list_divider_holo_dark">@drawable/list_divider_holo</item>
     <item name="drawable/list_divider_holo_light">@drawable/frameworks_res_list_divider_holo_light</item>
+    <item name="drawable/list_divider_holo_light">@drawable/list_divider_holo</item>
     <item name="drawable/list_divider_horizontal_holo_dark">@drawable/frameworks_res_list_divider_horizontal_holo_dark</item>
+    <item name="drawable/list_divider_horizontal_holo_dark">@drawable/transparent</item>
     <item name="drawable/list_focused_holo">@drawable/frameworks_res_list_focused_holo</item>
+    <item name="drawable/list_focused_holo">@drawable/list_focused_holo</item>
     <item name="drawable/list_highlight_active">@drawable/frameworks_res_list_highlight_active</item>
     <item name="drawable/list_highlight_inactive">@drawable/frameworks_res_list_highlight_inactive</item>
     <item name="drawable/list_longpressed_holo">@drawable/frameworks_res_list_longpressed_holo</item>
+    <item name="drawable/list_longpressed_holo">@drawable/list_longpressed_holo</item>
     <item name="drawable/list_pressed_holo_dark">@drawable/frameworks_res_list_pressed_holo_dark</item>
+    <item name="drawable/list_pressed_holo_dark">@drawable/list_pressed_holo</item>
     <item name="drawable/list_pressed_holo_light">@drawable/frameworks_res_list_pressed_holo_light</item>
+    <item name="drawable/list_pressed_holo_light">@drawable/list_pressed_holo</item>
     <item name="drawable/list_section_divider_holo_dark">@drawable/frameworks_res_list_section_divider_holo_dark</item>
+    <item name="drawable/list_section_divider_holo_dark">@drawable/list_section_divider_holo_dark</item>
     <item name="drawable/list_section_divider_holo_light">@drawable/frameworks_res_list_section_divider_holo_light</item>
+    <item name="drawable/list_section_divider_holo_light">@drawable/list_section_divider_holo_light</item>
     <item name="drawable/list_section_header_holo_dark">@drawable/frameworks_res_list_section_header_holo_dark</item>
+    <item name="drawable/list_section_header_holo_dark">@drawable/list_section_header_holo_dark</item>
     <item name="drawable/list_section_header_holo_light">@drawable/frameworks_res_list_section_header_holo_light</item>
+    <item name="drawable/list_section_header_holo_light">@drawable/list_section_header_holo_light</item>
     <item name="drawable/list_selected_holo_dark">@drawable/frameworks_res_list_selected_holo_dark</item>
+    <item name="drawable/list_selected_holo_dark">@drawable/list_selected_holo</item>
     <item name="drawable/list_selected_holo_light">@drawable/frameworks_res_list_selected_holo_light</item>
+    <item name="drawable/list_selected_holo_light">@drawable/list_selected_holo</item>
     <item name="drawable/list_selector_activated_holo_dark">@drawable/frameworks_res_list_selector_activated_holo_dark</item>
+    <item name="drawable/list_selector_activated_holo_dark">@drawable/list_selector_activated_holo_dark</item>
     <item name="drawable/list_selector_activated_holo_light">@drawable/frameworks_res_list_selector_activated_holo_light</item>
+    <item name="drawable/list_selector_activated_holo_light">@drawable/list_selector_activated_holo_light</item>
     <item name="drawable/list_selector_background_default">@drawable/frameworks_res_list_selector_background_default</item>
+    <item name="drawable/list_selector_background_default">@drawable/list_selector_background_default</item>
     <item name="drawable/list_selector_background_default_light">@drawable/frameworks_res_list_selector_background_default_light</item>
+    <item name="drawable/list_selector_background_default_light">@drawable/list_selector_background_default_light</item>
     <item name="drawable/list_selector_background_disabled">@drawable/frameworks_res_list_selector_background_disabled</item>
+    <item name="drawable/list_selector_background_disabled">@drawable/list_selector_background_disabled</item>
     <item name="drawable/list_selector_background_disabled_light">@drawable/frameworks_res_list_selector_background_disabled_light</item>
+    <item name="drawable/list_selector_background_disabled_light">@drawable/list_selector_background_disabled_light</item>
     <item name="drawable/list_selector_background_focus">@drawable/frameworks_res_list_selector_background_focus</item>
+    <item name="drawable/list_selector_background_focus">@drawable/list_selector_background_focus</item>
     <item name="drawable/list_selector_background_focused">@drawable/frameworks_res_list_selector_background_focused</item>
+    <item name="drawable/list_selector_background_focused">@drawable/list_selector_background_focused</item>
     <item name="drawable/list_selector_background_focused_light">@drawable/frameworks_res_list_selector_background_focused_light</item>
+    <item name="drawable/list_selector_background_focused_light">@drawable/list_selector_background_focused</item>
     <item name="drawable/list_selector_background_focused_selected">@drawable/frameworks_res_list_selector_background_focused_selected</item>
+    <item name="drawable/list_selector_background_focused_selected">@drawable/list_selector_background_focused_selected</item>
     <item name="drawable/list_selector_background_longpress">@drawable/frameworks_res_list_selector_background_longpress</item>
+    <item name="drawable/list_selector_background_longpress">@drawable/list_longpressed_holo</item>
     <item name="drawable/list_selector_background_longpress_light">@drawable/frameworks_res_list_selector_background_longpress_light</item>
+    <item name="drawable/list_selector_background_longpress_light">@drawable/list_selector_background_longpress_light</item>
     <item name="drawable/list_selector_background_pressed">@drawable/frameworks_res_list_selector_background_pressed</item>
+    <item name="drawable/list_selector_background_pressed">@drawable/list_pressed_holo</item>
     <item name="drawable/list_selector_background_pressed_light">@drawable/frameworks_res_list_selector_background_pressed_light</item>
+    <item name="drawable/list_selector_background_pressed_light">@drawable/list_selector_background_pressed_light</item>
     <item name="drawable/list_selector_background_selected">@drawable/frameworks_res_list_selector_background_selected</item>
+    <item name="drawable/list_selector_background_selected">@drawable/list_selector_background_selected</item>
     <item name="drawable/list_selector_background_selected_light">@drawable/frameworks_res_list_selector_background_selected_light</item>
+    <item name="drawable/list_selector_background_selected_light">@drawable/list_selector_background_selected_light</item>
     <item name="drawable/list_selector_disabled_holo_dark">@drawable/frameworks_res_list_selector_disabled_holo_dark</item>
+    <item name="drawable/list_selector_disabled_holo_dark">@drawable/list_selector_disabled_holo_dark</item>
     <item name="drawable/list_selector_disabled_holo_light">@drawable/frameworks_res_list_selector_disabled_holo_light</item>
+    <item name="drawable/list_selector_disabled_holo_light">@drawable/list_selector_disabled_holo_light</item>
     <item name="drawable/list_selector_focused_holo_dark">@drawable/frameworks_res_list_selector_focused_holo_dark</item>
+    <item name="drawable/list_selector_focused_holo_dark">@drawable/list_focused_holo</item>
     <item name="drawable/list_selector_focused_holo_light">@drawable/frameworks_res_list_selector_focused_holo_light</item>
+    <item name="drawable/list_selector_focused_holo_light">@drawable/list_focused_holo</item>
+    <item name="drawable/list_selector_holo_dark">@drawable/list_selector_holo_dark</item>
+    <item name="drawable/list_selector_holo_light">@drawable/list_selector_holo_dark</item>
     <item name="drawable/list_selector_multiselect_holo_dark">@drawable/frameworks_res_list_selector_multiselect_holo_dark</item>
+    <item name="drawable/list_selector_multiselect_holo_dark">@drawable/list_selector_multiselect_holo_dark</item>
     <item name="drawable/list_selector_multiselect_holo_light">@drawable/frameworks_res_list_selector_multiselect_holo_light</item>
+    <item name="drawable/list_selector_multiselect_holo_light">@drawable/list_selector_multiselect_holo_light</item>
     <item name="drawable/list_selector_pressed_holo_dark">@drawable/frameworks_res_list_selector_pressed_holo_dark</item>
+    <item name="drawable/list_selector_pressed_holo_dark">@drawable/list_pressed_holo</item>
     <item name="drawable/list_selector_pressed_holo_light">@drawable/frameworks_res_list_selector_pressed_holo_light</item>
-
+    <item name="drawable/list_selector_pressed_holo_light">@drawable/list_pressed_holo</item>
     <item name="drawable/maps_google_logo">@drawable/frameworks_res_maps_google_logo</item>
     <item name="drawable/menu_background">@drawable/frameworks_res_menu_background</item>
     <item name="drawable/menu_background_fill_parent_width">@drawable/frameworks_res_menu_background_fill_parent_width</item>
@@ -1040,7 +1091,6 @@
     <item name="drawable/minitab_lt_selected">@drawable/frameworks_res_minitab_lt_selected</item>
     <item name="drawable/minitab_lt_unselected">@drawable/frameworks_res_minitab_lt_unselected</item>
     <item name="drawable/minitab_lt_unselected_press">@drawable/frameworks_res_minitab_lt_unselected_press</item>
-
     <item name="drawable/notify_panel_notification_icon_bg">@drawable/frameworks_res_notify_panel_notification_icon_bg</item>
     <item name="drawable/numberpicker_down_disabled">@drawable/frameworks_res_numberpicker_down_disabled</item>
     <item name="drawable/numberpicker_down_disabled_focused">@drawable/frameworks_res_numberpicker_down_disabled_focused</item>
@@ -1081,10 +1131,8 @@
     <item name="drawable/numberpicker_up_pressed_holo_dark">@drawable/frameworks_res_numberpicker_up_pressed_holo_dark</item>
     <item name="drawable/numberpicker_up_pressed_holo_light">@drawable/frameworks_res_numberpicker_up_pressed_holo_light</item>
     <item name="drawable/numberpicker_up_selected">@drawable/frameworks_res_numberpicker_up_selected</item>
-
     <item name="drawable/overscroll_edge">@drawable/frameworks_res_overscroll_edge</item>
     <item name="drawable/overscroll_glow">@drawable/frameworks_res_overscroll_glow</item>
-
     <item name="drawable/panel_background">@drawable/frameworks_res_panel_background</item>
     <item name="drawable/panel_bg_holo_dark">@drawable/frameworks_res_panel_bg_holo_dark</item>
     <item name="drawable/panel_bg_holo_light">@drawable/frameworks_res_panel_bg_holo_light</item>
@@ -1095,8 +1143,8 @@
     <item name="drawable/password_keyboard_background_holo">@drawable/frameworks_res_password_keyboard_background_holo</item>
     <item name="drawable/picture_emergency">@drawable/frameworks_res_picture_emergency</item>
     <item name="drawable/picture_frame">@drawable/frameworks_res_picture_frame</item>
-    <item name="drawable/platlogo">@drawable/platlogo</item>
     <item name="drawable/platlogo_alt">@drawable/platlogo_alt</item>
+    <item name="drawable/platlogo">@drawable/platlogo</item>
     <item name="drawable/pointer_arrow">@drawable/frameworks_res_pointer_arrow</item>
     <item name="drawable/pointer_spot_anchor">@drawable/frameworks_res_pointer_spot_anchor</item>
     <item name="drawable/pointer_spot_hover">@drawable/frameworks_res_pointer_spot_hover</item>
@@ -1150,7 +1198,6 @@
     <item name="drawable/progress_primary_holo_light">@drawable/frameworks_res_progress_primary_holo_light</item>
     <item name="drawable/progress_secondary_holo_dark">@drawable/frameworks_res_progress_secondary_holo_dark</item>
     <item name="drawable/progress_secondary_holo_light">@drawable/frameworks_res_progress_secondary_holo_light</item>
-
     <item name="drawable/quickactions_arrowdown_left_holo_dark">@drawable/frameworks_res_quickactions_arrowdown_left_holo_dark</item>
     <item name="drawable/quickactions_arrowdown_left_holo_light">@drawable/frameworks_res_quickactions_arrowdown_left_holo_light</item>
     <item name="drawable/quickactions_arrowdown_right_holo_dark">@drawable/frameworks_res_quickactions_arrowdown_right_holo_dark</item>
@@ -1169,7 +1216,6 @@
     <item name="drawable/quickcontact_badge_small_pressed">@drawable/frameworks_res_quickcontact_badge_small_pressed</item>
     <item name="drawable/quickcontact_badge_small_unpressed">@drawable/frameworks_res_quickcontact_badge_small_unpressed</item>
     <item name="drawable/quickcontact_badge_unpressed">@drawable/frameworks_res_quickcontact_badge_unpressed</item>
-
     <item name="drawable/radiobutton_off_background">@drawable/frameworks_res_radiobutton_off_background</item>
     <item name="drawable/radiobutton_on_background">@drawable/frameworks_res_radiobutton_on_background</item>
     <item name="drawable/rate_star_big_half">@drawable/frameworks_res_rate_star_big_half</item>
@@ -1201,7 +1247,6 @@
     <item name="drawable/rate_star_small_on_holo_light">@drawable/frameworks_res_rate_star_small_on_holo_light</item>
     <item name="drawable/recent_dialog_background">@drawable/frameworks_res_recent_dialog_background</item>
     <item name="drawable/reticle">@drawable/frameworks_res_reticle</item>
-
     <item name="drawable/scrollbar_handle_accelerated_anim2">@drawable/frameworks_res_scrollbar_handle_accelerated_anim2</item>
     <item name="drawable/scrollbar_handle_holo_dark">@drawable/frameworks_res_scrollbar_handle_holo_dark</item>
     <item name="drawable/scrollbar_handle_holo_light">@drawable/frameworks_res_scrollbar_handle_holo_light</item>
@@ -1395,7 +1440,6 @@
     <item name="drawable/sym_keyboard_shift">@drawable/frameworks_res_sym_keyboard_shift</item>
     <item name="drawable/sym_keyboard_shift_locked">@drawable/frameworks_res_sym_keyboard_shift_locked</item>
     <item name="drawable/sym_keyboard_space">@drawable/frameworks_res_sym_keyboard_space</item>
-
     <item name="drawable/tab_bottom_holo">@drawable/frameworks_res_tab_bottom_holo</item>
     <item name="drawable/tab_focus_bar_left">@drawable/frameworks_res_tab_focus_bar_left</item>
     <item name="drawable/tab_focus_bar_right">@drawable/frameworks_res_tab_focus_bar_right</item>
@@ -1487,14 +1531,11 @@
     <item name="drawable/toast_frame">@drawable/frameworks_res_toast_frame</item>
     <item name="drawable/toast_frame_holo">@drawable/frameworks_res_toast_frame_holo</item>
     <item name="drawable/transportcontrol_bg">@drawable/frameworks_res_transportcontrol_bg</item>
-
     <item name="drawable/unknown_image">@drawable/frameworks_res_unknown_image</item>
     <item name="drawable/usb_android_connected">@drawable/frameworks_res_usb_android_connected</item>
     <item name="drawable/usb_android">@drawable/frameworks_res_usb_android</item>
-
     <item name="drawable/vpn_connected">@drawable/frameworks_res_vpn_connected</item>
     <item name="drawable/vpn_disconnected">@drawable/frameworks_res_vpn_disconnected</item>
-
     <item name="drawable/weather_0">@drawable/frameworks_res_weather_0</item>
     <item name="drawable/weather_10">@drawable/frameworks_res_weather_10</item>
     <item name="drawable/weather_11">@drawable/frameworks_res_weather_11</item>
@@ -1545,6 +1586,5 @@
     <item name="drawable/weather_9">@drawable/frameworks_res_weather_9</item>
     <item name="drawable/weather_na_cid">@drawable/frameworks_res_weather_na_cid</item>
     <item name="drawable/weather_na">@drawable/frameworks_res_weather_na</item>
-
     <item name="drawable/zoom_plate">@drawable/frameworks_res_zoom_plate</item>
 </resource-redirections>

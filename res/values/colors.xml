@@ -22,33 +22,26 @@
     <color name="notification_item_background_color_pressed">#fff56413</color>
     <color name="transparent_black">#ffff6630</color>
 
-    <color name="background_dark">#ff000000</color>
-    <color name="background_holo_dark">#ff000000</color>
-    <color name="background_holo_light">#fff3f3f3</color> 
+    <color name="background_dark">#ffcecece</color>
+    <color name="background_holo_dark">#ffcecece</color>
+    <color name="background_holo_light">#fff3f3f3</color>
     <color name="background_light">#ffffffff</color>
-    <color name="black">#ff000000</color>
-    <color name="bright_foreground_dark">@color/background_light</color>
+    <color name="black">#ff000000</color> 
+
     <color name="bright_foreground_dark_disabled">#80ffffff</color>
-    <color name="bright_foreground_dark_inverse">@color/bright_foreground_light</color>
     <color name="bright_foreground_disabled_holo_dark">#ff4c4c4c</color>
-    <color name="bright_foreground_disabled_holo_light">#ffb2b2b2</color> 
-    <color name="bright_foreground_holo_dark">@color/background_holo_light</color> 
-    <color name="bright_foreground_holo_light">@color/background_holo_dark</color>
-    <color name="bright_foreground_inverse_holo_dark">@color/bright_foreground_holo_light</color> 
-    <color name="bright_foreground_inverse_holo_light">@color/bright_foreground_holo_dark</color>
-    <color name="bright_foreground_light">@color/background_dark</color>
+    <color name="bright_foreground_disabled_holo_light">#ffb2b2b2</color>
     <color name="bright_foreground_light_disabled">#80000000</color>
-    <color name="bright_foreground_light_inverse">@color/bright_foreground_dark</color>
-
-    <color name="darker_gray">#aaa</color>
-
+    <color name="config_defaultNotificationColor">#ff00ff00</color>
+    <color name="darker_gray">#ffaaaaaa</color>
     <color name="dim_foreground_dark">#bebebe</color>
     <color name="dim_foreground_dark_disabled">#80bebebe</color>
     <color name="dim_foreground_dark_inverse">#323232</color>
     <color name="dim_foreground_dark_inverse_disabled">#80323232</color>
     <color name="dim_foreground_disabled_holo_dark">#80bebebe</color>
     <color name="dim_foreground_disabled_holo_light">#80323232</color>
-    <color name="dim_foreground_holo_dark">#bebebe</color>
+<!--    <color name="dim_foreground_holo_dark">#bebebe</color>-->
+    <color name="dim_foreground_holo_dark">#ffff6630</color>
     <color name="dim_foreground_holo_light">#323232</color>
     <color name="dim_foreground_inverse_disabled_holo_dark">#80323232</color>
     <color name="dim_foreground_inverse_disabled_holo_light">#80bebebe</color>
@@ -79,6 +72,7 @@
     <color name="holo_blue_bright">#ffe8713f</color>
     <color name="holo_blue_dark">#fff55610</color>
     <color name="holo_blue_light">#ffff6630</color>
+
     <color name="holo_green_dark">#fff55610</color>
     <color name="holo_green_light">#ffff6630</color>
     <color name="holo_orange_dark">#ffff8800</color>
@@ -126,7 +120,17 @@
 
     <color name="suggestion_highlight_text">#177bbd</color>
     <color name="transparent">#00000000</color>
-    <color name="white">#ffffffff</color>
+    <color name="white">#ffffffff</color> 
+
+
+    <item type="color" name="bright_foreground_holo_light">@color/background_holo_dark</item>
+    <item type="color" name="bright_foreground_inverse_holo_dark">@color/bright_foreground_holo_light</item>
+
+    <!-- systemui -->
+    <color name="notification_list_shadow_top">#80000000</color>
+    <color name="notification_panel_scrim_color">#00000000</color>
+    <color name="notification_panel_solid_background">#ff000000</color>
+    <color name="status_bar_recents_app_label_color">#ffffffff</color>
 
     <!-- Calculator -->
     <color name="ubuntu_button_text">#fff56424</color>
@@ -136,12 +140,24 @@
     <color name="ubuntu_background">#ff000000</color>
 
     <!-- Contacts -->
-    <color name="contacts_bright_foreground_disabled_holo_dark">#ff999999</color>
-    <color name="contacts_dialtacts_secondary_text_color">#ffededed</color>
-    <color name="contacts_link_text_light">#ff333333</color>
-    <color name="contacts_primary_text_color">#fff56424</color>
-    <color name="contacts_section_header_text_color">#fff56424</color>
-    <color name="contacts_white">#ffededed</color>
+    <color name="con_quickcontact_list_divider">#ffff6630</color>
+    <color name="con_quickcontact_list_background">#ff000000</color>
+    <color name="con_white_text">#ffffffff</color>
+    <color name="con_quickcontact_tab_indicator">#ffff6630</color>
+    <color name="con_people_app_theme_color">#ffff6630</color>
+    <color name="con_background_primary">#ff000000</color>
+    <color name="con_background_social_updates">#ff000000</color>
+    <color name="con_account_container">#00000000</color>
+
+    <!-- Dialer -->
+    <color name="dial_smartdial_name_primary_text_color">#ffff6630</color>
+    <color name="dial_smartdial_name_highlighted_text_color">#ffff6630</color>
+    <color name="dial_call_stats_incoming">#ff00ddff</color>
+    <color name="dial_call_log_voicemail_status_action_text_color">#ffff6630</color>
+    <color name="dial_white_text">#ffffffff</color>
+    <color name="dial_account_container">#00000000</color>
+    <color name="dial_call_detail_separator">#ffff6630</color>
+    <color name="dial_call_log_header_color">#ffff6630</color>
 
     <!-- Deskclock -->
     <color name="deskclock_cling_text">#fff56424</color>
@@ -158,6 +174,11 @@
     <color name="mms_timestamp_color">#fff56424</color>
     <color name="mms_white">#ffededed</color>
 
+    <color name="delivery_report_header">#000000</color>
+    <color name="delivery_report_recipient">#ffffff</color>
+    <color name="delivery_report_status">#ffffff</color>
+    <color name="delivery_report_date">#ffffff</color>
+
     <!-- Play Store  -->
     <color name="ubuntu_apps_background">#fff56424</color>
     <color name="ubuntu_apps_dark">#fff55610</color>
@@ -170,27 +191,91 @@
     <color name="ubuntu_setup_wizard_title_color">#fff56424</color>
     <color name="ubuntu_song_highlighted_background">#fff56424</color>
 
-    <!-- Gmail -->
-    <color name="gm_fadedConversationHeader">#ffff6630</color>
-    <color name="gm_fadedActivatedConversationHeader">#ffff6630</color>
-<!--    <color name="white">#fff56424</color> -->
-    <color name="blue">#fff56424</color>
+    <!-- Extra -->
+    <color name="blue">#ff000000</color>
     <color name="lightest_gray">#ffededed</color>
-
-    <!-- Twitter -->
-    <color name="bg_focused">#ff888888</color>
-    <color name="bg_pressed">#ff666666</color>
-    <color name="dark_blue">#ffededed</color>
-    <color name="dark_gray">#ff030303</color>
+    <color name="transparentblack">#60000000</color>
+    <color name="transparentgray">#88666666</color>
+    <color name="verydarkgray">#ff222222</color>
+    <color name="verylightgray">#ffdddddd</color>
+    <color name="gray">#ff888888</color>
+    <color name="darkgray">#ff555555</color>
     <color name="med_gray">#ff555555</color>
-    <color name="mentioned">#40000000</color>
-    <color name="pink">#ffff00ba</color>
+    <color name="pink">#ffff00ba</color> 
+    <color name="red">#ffe70000</color>
+
+    <!-- email -->
+    <color name="email_section_header_text_color">#fff56424</color>
+    <color name="lightgray">#ffbbbbbb</color>
 
     <!-- hololauncher HD -->
-    <color name="hololauncher_info_target_hover_tint">#fff56424</color>
+    <color name="hololauncher_info_target_hover_tint">#fff56424</color> 
 
-    <!-- For apps with the textcolor in layout -->
-    <color name="textColor">#ffededed</color>
-    <color name="textColorHint">#ffededed</color>   
+    <!-- Gmail -->
+    <!-- Gmail update 2013-10-05 -->
+    <color name="ad_background_yellow">#fffff8e5</color>
+    <color name="ap_background_color">#fff1f1f2</color>
+    <color name="ap_overflow_badge_color">#cceeeeee</color>
+    <color name="ap_overflow_text_color">#ff4f4c4c</color>
+    <color name="letter_tile_default_color">#ffd66161</color>
+    <color name="letter_tile_font_color">#ffffffff</color>
+    <item type="color" name="teaser_main_text">@color/dark_gray_text_color</item>
+
+    <!-- Gmail --> 
+    <color name="animating_item_background_color">@color/black</color>
+    <color name="attachment_bg_color">@color/transparent</color>
+    <color name="attachment_image_background_color">@color/transparent</color>
+    <color name="attachment_tile_shadow_box_color">#7f000000</color>
+    <color name="attachment_tile_subtitle_color">@color/gray</color>
+    <color name="compose_attachment_title_background_color">@color/black</color>
+    <color name="compose_label_text">@color/verydarkgray</color>
+    <color name="conv_header_add_label_background">@color/holo_blue_light</color>
+    <color name="conv_subject_border">#ffc0c0c0</color>
+    <color name="dark_gray_text_color">#ff999999</color>
+    <color name="default_folder_background_color">@color/black</color>
+    <color name="drafts">#ffaa0000</color>
+    <color name="folder_disabled_drop_target_text_color">#ff999999</color>
+    <color name="folder_list_background_color">@color/black</color>
+    <color name="gray_text_color">@color/lightgray</color>
+    <color name="high_spam_color">#ffcc0000</color>
+    <color name="leaveBehindBackground">@color/black</color>
+    <color name="light_text_color">@color/gray</color>
+    <color name="list_background_color">@color/black</color>
+    <color name="notification_template_icon_low_bg">#0cffffff</color>
+    <color name="photo_crop_dim_color">@color/gray</color>
+    <color name="photo_crop_highlight_color">@color/white</color>
+    <color name="snippet_text_color_unread">@color/gray</color>
+    <color name="solid_black">@color/black</color>
+    <color name="subject_text_color">@color/lightgray</color>
+    <color name="swiped_bg_color">@color/black</color>
+    <color name="unread_count_color">@color/lightgray</color>
+
+    <color name="holo_light_background_color">@color/white</color>
+    <color name="section_teaser_icon_background">@color/black</color>
+
+    <item type="color" name="account_item_selected_text_color">@color/holo_blue_light</item>
+    <item type="color" name="compose_background_color">@color/white</item>
+    <item type="color" name="conv_header_add_label_text">@color/black</item>
+    <item type="color" name="conv_header_text_light">@color/black</item>
+    <item type="color" name="date_text_color">@color/holo_blue_light</item>
+    <item type="color" name="default_folder_foreground_color">@color/black</item>
+    <item type="color" name="folder_list_divider_color">@color/gray_text_color</item>
+    <item type="color" name="folder_list_heading_text_color">@color/holo_blue_light</item>
+    <item type="color" name="hierarchical_folder_parent_color">@color/holo_blue_dark</item>
+    <item type="color" name="mail_app_blue">@color/holo_blue_light</item>
+    <item type="color" name="message_info_text_color">@color/holo_blue_light</item>
+    <item type="color" name="position_bar_background">@color/holo_blue_light</item>
+    <item type="color" name="quoted_text_color">@color/holo_blue_light</item>
+    <item type="color" name="quotedTextColor">@color/holo_blue_light</item>
+    <item type="color" name="senders_text_color_read">@color/holo_blue_light</item>
+    <item type="color" name="senders_text_color_unread">@color/white</item>
+    <item type="color" name="snippet_text_color_read">@color/gray</item>
+    <item type="color" name="subject_text_color_read">@color/white</item>
+    <item type="color" name="subject_text_color_unread">@color/holo_blue_light</item>
+
+    <color name="conversation_list_background_color">@color/black</color>
+    <color name="faded_activated_conversation_header">@color/black</color>
+    <color name="faded_conversation_header">@color/black</color>
+    <color name="snippet_text_color">@color/gray</color>
 
 </resources>
